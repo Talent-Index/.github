@@ -1,139 +1,246 @@
+<div align="center">
+
 # Talent Index KE
 
-**427 builders. 116 projects. One mission — ship real products.**
+**Kenya's builder community for developers who ship.**
 
-Talent Index KE is Kenya's most active developer community for builders who want their code to run in production, not just in tutorials. We run structured builder programmes, hands-on hackathons, and IRL events that take developers from fundamentals to deployed products.
+[![Programme](https://img.shields.io/badge/Mini%20Hack-Active-e84142?style=flat-square)](https://team1-kenya-mini-hack.vercel.app)
+[![Network](https://img.shields.io/badge/Network-Avalanche%20Fuji-e84142?style=flat-square)](https://docs.avax.network)
+[![Sessions](https://img.shields.io/badge/Sessions-Tue%20%26%20Thu%208PM%20EAT-333?style=flat-square)](#)
+[![Org](https://img.shields.io/badge/GitHub-Talent--Index-181717?style=flat-square&logo=github)](https://github.com/Talent-Index)
 
-Right now, we are running **Mini Hack** — a three-cohort builder programme on Avalanche. Payments. Gaming. Agentic AI. Every cohort ends with a live product on testnet and a Demo Day presentation.
-
----
-
-## What we build
-
-Every project in this organisation started as a real problem a Kenyan developer decided to solve. A savings platform for boda boda riders. A certificate issuance system. A crypto-to-M-Pesa payment gateway. These are not toy projects. They are products that work.
-
-The tech stack across the org spans TypeScript, JavaScript, Solidity, Python, and Move. The domains range from DeFi and payments to gaming, logistics, and community tooling. If you are looking for a signal of what Kenyan developers are building in 2026, this is it.
+</div>
 
 ---
 
-## Mini Hack — Active Programme
+Talent Index KE is a structured builder community for Kenyan developers building real products. We run cohort programmes, IRL events, and hands-on hackathons where every session ends with something deployed — not just discussed.
 
-Mini Hack is our flagship builder programme for 2026. Three cohorts, each one month long, each anchored on Avalanche.
+Every project in this organisation started as a real problem a Kenyan developer decided to solve. A savings platform for boda boda riders. A certificate issuance system. A crypto-to-M-Pesa payment gateway. A blockchain game. These are not tutorial projects. They are products built by developers who want their code in production.
 
-| Cohort | Track | Status |
-|--------|-------|--------|
-| Cohort 1 | Payments on Avalanche | Active |
-| Cohort 2 | Gaming and Gamified Solutions | Upcoming |
-| Cohort 3 | Agentic AI Systems | Upcoming |
-
-Sessions run every Tuesday and Thursday at 8:00 PM EAT on Google Meet.
-
-Every builder who completes a cohort has:
-- A deployed product on Fuji testnet
-- An Avalanche Academy certification on Builders Hub
-- A 5-minute demo video
-- A PR history that shows their work
-
-**Mini Hack resources**
-
-- Programme landing page: [team1-kenya-mini-hack.vercel.app](https://team1-kenya-mini-hack.vercel.app)
-- Developer handbook: linked from the landing page
-- Session platform: Google Meet (link in Discord)
-- Quest submissions: Plug and Play
-- Certifications: Avalanche Builders Hub at [core.app/builders-hub](https://core.app/builders-hub)
+The active programme is **Mini Hack** — three cohorts, each one month long, each anchored on Avalanche C-Chain. Payments. Gaming. Agentic AI. Every graduate has a deployed product on Fuji testnet, an Avalanche Academy certification, and a demo video.
 
 ---
 
-## How this organisation works
+## Mini Hack 2026
 
-### For Mini Hack builders
+Three cohorts. Three tracks. One blockchain.
 
-When you are accepted into Mini Hack, you will receive an invitation to join this organisation. Once you accept:
+### Cohort 1 — Payments on Avalanche
+> **Status: Active**
 
-1. You are assigned to your cohort team (`minihack-cohort1`, `minihack-cohort2`, or `minihack-cohort3`)
-2. You fork the cohort template repository to your personal GitHub account
-3. You create a weekly branch using the format `week-{N}-{your-github-handle}`
-4. You open a pull request against your fork's main branch for each weekly deliverable
-5. You submit the PR link in the `#submissions` Discord channel before Sunday midnight EAT
+Build a hybrid payment product that bridges M-Pesa and USDC on Avalanche C-Chain.
 
-Your PR is your submission. Fill in the PR template every time. A blank PR template means your deliverable will not be reviewed.
+**What you build:** M-Pesa STK Push integrations, USDC payment contracts, hybrid payment backends, merchant dashboards
 
-### For existing Talent Index members
+**Tech stack:** Solidity, Hardhat, ethers.js, Core Wallet, Daraja API, Ngrok, Node.js, Express
 
-If you are already part of this organisation and want to build an Avalanche project:
+**Certifications:** Avalanche Fundamentals + Payments module on Builders Hub
 
-- Tag your repo with the topics `avalanche`, `fuji-testnet`, and `web3-kenya` so it surfaces in searches and gets included in programme showcases
-- Read the [CONTRIBUTING guide](../CONTRIBUTING.md) for how to structure your project for review and recognition
-- Join the Mini Hack Discord to connect with the current cohort builders — the `#help` channel is open to everyone in the org, not just active cohort participants
+**Template:** [minihack-cohort1-template](https://github.com/Talent-Index/minihack-cohort1-template)
 
 ---
 
-## Developer resources
+### Cohort 2 — Gaming and Gamified Solutions on Avalanche
+> **Status: Upcoming**
 
-These are the tools, platforms, and documentation you will use across all three cohorts and across the broader Talent Index build culture.
+Build a game or gamified system with NFT assets, on-chain game logic, and token economies on Avalanche.
 
-**Blockchain and Avalanche**
+**What you build:** NFT in-game assets, ERC-20 reward tokens, on-chain leaderboards, gamified loyalty programmes, Avalanche subnet deployments
 
-- Avalanche documentation: [docs.avax.network](https://docs.avax.network)
-- Avalanche Builders Hub: [core.app/builders-hub](https://core.app/builders-hub)
-- Core Wallet: [core.app](https://core.app) and [docs.core.app](https://docs.core.app)
-- Fuji testnet faucet: [core.app/tools/testnet-faucet](https://core.app/tools/testnet-faucet)
-- Snowtrace (Fuji explorer): [testnet.snowtrace.io](https://testnet.snowtrace.io)
+**Tech stack:** Solidity, Hardhat, ethers.js, Core Wallet, OpenZeppelin ERC-721/1155, Pinata IPFS, WebSockets, Node.js
 
-**Smart contracts**
+**Certifications:** Avalanche Gaming + Token Design module on Builders Hub
 
-- Hardhat: [hardhat.org/docs](https://hardhat.org/docs)
-- ethers.js: [docs.ethers.org](https://docs.ethers.org)
-- OpenZeppelin Contracts: [docs.openzeppelin.com/contracts](https://docs.openzeppelin.com/contracts)
-- USDC on Avalanche: [developers.circle.com/stablecoins/usdc-on-avalanche](https://developers.circle.com/stablecoins/usdc-on-avalanche)
+**Prerequisite:** Cohort 1 completion or equivalent (Solidity basics, Hardhat, ERC-20 on Fuji)
 
-**Payment integrations**
-
-- Safaricom Daraja API: [developer.safaricom.co.ke/docs](https://developer.safaricom.co.ke/docs)
-- Ngrok (for local webhook tunnelling): [ngrok.com](https://ngrok.com)
-
-**Data and APIs**
-
-- Alchemy Avalanche APIs: [docs.alchemy.com/reference/avalanche-api](https://docs.alchemy.com/reference/avalanche-api)
-- The Graph: [thegraph.com/docs](https://thegraph.com/docs)
-
-**AI development (Cohort 3)**
-
-- Anthropic Claude API: [docs.anthropic.com](https://docs.anthropic.com)
+**Template:** [minihack-cohort2-template](https://github.com/Talent-Index/minihack-cohort2-template)
 
 ---
 
-## IRL events
+### Cohort 3 — Agentic AI Systems on Avalanche
+> **Status: Upcoming**
 
-**Night of Code** — 19 June 2026. A mid-cohort overnight build event. Builders work through the night on their projects. Attendance encouraged, not mandatory.
+Build autonomous AI agents that reason about on-chain data, trigger transactions, and operate as production-ready systems on Avalanche.
 
-**Builders Connect** — Last Saturday of each month. This is Demo Day. Final projects are presented live to a panel. Attendance is mandatory for graduation and certification.
+**What you build:** Claude API tool-calling agents, blockchain-aware wallet advisors, RAG knowledge agents, autonomous USDC payment triggers with human-in-the-loop safety
+
+**Tech stack:** Anthropic Claude API, Alchemy, The Graph, ethers.js, Chroma vector DB, Core Wallet, Node.js, Hardhat
+
+**Certifications:** Avalanche AI + Agentic Systems module on Builders Hub
+
+**Prerequisite:** Cohort 1 completion or equivalent (ethers.js, smart contract deployment, async Node.js)
+
+**Template:** [minihack-cohort3-template](https://github.com/Talent-Index/minihack-cohort3-template)
 
 ---
 
-## Recognition
+## Programme details
 
-The best work in this organisation gets featured. If your project ships a clean product, has solid documentation, and demonstrates technical depth, it goes in the showcase.
+**Sessions:** Every Tuesday and Thursday at 8:00 PM EAT on Google Meet
 
-Recognition is based on three things: code that works, documentation that explains it, and a demo that shows it. There are no other criteria.
+**Office hours:** Thursdays 6:00 PM to 7:00 PM EAT on Discord voice, before the main session
+
+**Quest submissions:** Plug and Play platform — max 5 quests per week, Sunday midnight EAT deadline
+
+**Certifications:** Avalanche Academy on Builders Hub — mandatory for every cohort, tracked as a primary KPI
+
+**IRL events:**
+- Night of Code — 19 June 2026, mid-cohort overnight build event
+- Builders Connect — last Saturday of each month, Demo Day and graduation, attendance mandatory for certification
+
+---
+
+## Joining Mini Hack
+
+When you are accepted into a cohort, you receive an invitation to this organisation. Once you accept:
+
+**Step 1 — Fork your cohort template**
+
+Go to your cohort template repo and click **Use this template** or **Fork**. Fork to your personal GitHub account.
+
+**Step 2 — Clone and set up**
+
+```bash
+git clone git@github.com:YOUR-HANDLE/minihack-cohortN-template.git
+cd minihack-cohortN-template
+npm install
+cp .env.example .env
+npx hardhat compile
+```
+
+**Step 3 — Create your weekly branch**
+
+```bash
+git checkout -b week-{N}-{your-github-handle}
+```
+
+**Step 4 — Build and submit**
+
+Open a pull request against the `main` branch of your own fork. Title format:
+
+```
+[Cohort N Week N] Your Name - Deliverable title
+```
+
+Post the PR link in `#submissions` on Discord before Sunday midnight EAT. Complete all weekly quests on Plug and Play by the same deadline.
+
+**Step 5 — Earn your certification**
+
+Complete the relevant Avalanche Academy module each week and upload your certificate via Plug and Play. Your Builders Hub account is Quest 1 of every cohort — create it in Week 1.
+
+---
+
+## Accounts to create before Week 1
+
+| Account | Where | Required for |
+|---------|-------|-------------|
+| GitHub | github.com | All cohorts — use your real name |
+| Avalanche Builders Hub | core.app/builders-hub | All cohorts — Quest 1, primary KPI |
+| Core Wallet on Fuji | core.app | All cohorts — required wallet |
+| Alchemy or Infura | alchemy.com | All cohorts — RPC access |
+| Safaricom Daraja sandbox | developer.safaricom.co.ke | Cohort 1 only |
+| Pinata | pinata.cloud | Cohort 2 only — IPFS for NFT metadata |
+| Anthropic API | console.anthropic.com | Cohort 3 only — Claude API access |
+
+Fuji testnet AVAX faucet: [core.app/tools/testnet-faucet](https://core.app/tools/testnet-faucet)
+
+---
+
+## Tools to install before Week 1
+
+```bash
+# Verify Node.js 20 LTS
+node --version   # must show v20.x.x
+
+# Verify Git
+git --version
+
+# Install Hardhat (inside your project after forking)
+npm install --save-dev hardhat
+
+# Install ethers.js
+npm install ethers
+```
+
+Also install: VS Code, Postman, Core Wallet browser extension, Ngrok (Cohort 1)
+
+---
+
+## Assessment
+
+All weekly deliverables are graded on five criteria:
+
+| Criterion | Weight | What the reviewer checks |
+|-----------|--------|--------------------------|
+| Functionality | 35% | Features work correctly on Fuji testnet |
+| Integration depth | 25% | Wallet + API + on-chain layers connected |
+| Code quality | 20% | Readable, commented, tested |
+| Documentation | 10% | README explains what you built and how to run it |
+| Demo presentation | 10% | Live product walkthrough at Builders Connect |
+
+**Grade bands:** Distinction 90-100% / Merit 75-89% / Pass 60-74% / Incomplete below 60%
+
+Week 4 final project carries 40% of the overall cohort grade. Weeks 1-3 together carry 60%.
+
+**Late submissions:** Accepted up to 48 hours after the deadline with a 20% penalty. Beyond 48 hours receives zero for that week. Three consecutive zeros results in removal from the cohort without a certificate.
+
+---
+
+## For existing Talent Index members
+
+If you are already part of this org and want your project included in programme showcases and the monthly builder recognition:
+
+Tag your repo with relevant topics — `avalanche`, `web3-kenya`, `fuji-testnet`, `mini-hack`, `m-pesa`, `solidity` — so it surfaces in searches and gets picked up by the showcase review.
+
+Post your project in the [Builder Spotlight](https://github.com/Talent-Index/.github/discussions) discussion category. The technical lead reviews all submissions monthly.
+
+Read [CONTRIBUTING.md](https://github.com/Talent-Index/.github/blob/main/CONTRIBUTING.md) for the full guide on structuring your project for review.
+
+---
+
+## Community
+
+| Channel | Purpose |
+|---------|---------|
+| Discord | Primary — questions, peer help, session links, weekly digests |
+| GitHub Discussions | Builder Spotlight, Announcements, Resources, Help |
+| Plug and Play | Quest submissions and Avalanche Academy certificate uploads |
+| Discord `#submissions` | Weekly PR submission links |
+| Discord `#help` | Technical questions — include what you tried and the exact error |
+
+Discord and all programme links: [team1-kenya-mini-hack.vercel.app](https://team1-kenya-mini-hack.vercel.app)
 
 ---
 
 ## Core team
 
-| Role | Person |
-|------|--------|
-| Technical Lead, Mini Hack | Joseph Njoroge (Scotch) — Avalanche Technical Ambassador, Co-founder SynchStack Solutions |
-| Programme Lead | Lavender |
+**Joseph Njoroge (Scotch)** — Technical Lead, Mini Hack
+Avalanche Technical Ambassador. Co-founder, SynchStack Solutions.
+Owns the curriculum, session delivery, code reviews, and end-of-cohort reporting.
+
+**Lavender** — Programme Lead
+Owns programme strategy, partner relationships, KPI reporting to the Avalanche Foundation, and IRL event logistics.
 
 ---
 
-## Connect
+## Documentation
 
-- Discord: linked from the Mini Hack landing page
-- Landing page: [team1-kenya-mini-hack.vercel.app](https://team1-kenya-mini-hack.vercel.app)
-- GitHub org: [github.com/Talent-Index](https://github.com/Talent-Index)
+| Resource | Link |
+|----------|------|
+| Programme landing page | [team1-kenya-mini-hack.vercel.app](https://team1-kenya-mini-hack.vercel.app) |
+| Cohort 1 template | [minihack-cohort1-template](https://github.com/Talent-Index/minihack-cohort1-template) |
+| Cohort 2 template | [minihack-cohort2-template](https://github.com/Talent-Index/minihack-cohort2-template) |
+| Cohort 3 template | [minihack-cohort3-template](https://github.com/Talent-Index/minihack-cohort3-template) |
+| Contributing guide | [CONTRIBUTING.md](https://github.com/Talent-Index/.github/blob/main/CONTRIBUTING.md) |
+| Org Discussions | [Builder Spotlight and Announcements](https://github.com/Talent-Index/.github/discussions) |
+| Avalanche Builders Hub | [core.app/builders-hub](https://core.app/builders-hub) |
+| Avalanche docs | [docs.avax.network](https://docs.avax.network) |
 
 ---
 
-*Talent Index KE | Team1 Kenya | 2026*
+<div align="center">
+
+*Build with intent. Ship with pride.*
+**Team1 Kenya | 2026**
+
+</div>
